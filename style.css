@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-size: 20px;
+    line-height: 20px;
+}
+a {
+    text-decoration: none;
+}
+.main-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 1rem 1.5rem;
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #ccc;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.logo a {
+    color: black;
+}
+nav ul li a {
+    color: black;
+}
+#Home {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(205, 236, 252);
+}
+.home-left{
+    text-align: left;
+    margin: 100px;
+    display: grid;
+}
+.home-right img {
+    width: 260px;
+    border-radius: 20px;
+}
+section {
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+#About {
+    text-align: center;
+    padding: 110px;
+    background-color: rgb(237, 237, 237);
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.card {
+    background-color: #041f69;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.card i {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#Skills {
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 100px;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin: 10px;   
+}
+.timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+}
+.timeline-content {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+#contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #c0efff;
+}
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+#contact button {
+    background-color: #0163ff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#contact button:hover{
+    background-color: #727272;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+}
+
